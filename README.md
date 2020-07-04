@@ -1,6 +1,6 @@
 # blood-bank-system
 
-This application implements the whole backend system for managing multiple blood banks. The whole appliaction is written in java with Spring boot framework.
+This application performs the complete backend system for handling many blood banks. The codebase is in Java with the Spring boot framework.
 
 ## Requirements
 - [Java](https://www.java.com/en/)
