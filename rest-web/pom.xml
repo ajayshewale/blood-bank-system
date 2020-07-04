@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>blood-bank</artifactId>
+        <groupId>com.indorse.blood.bank</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>blood-bank-rest-web</artifactId>
+
+    <packaging>jar</packaging>
+    <name>${project.groupId}-${project.artifactId}</name>
+    <build>
+        <finalName>${project.name}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.5.RELEASE</version>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <properties>
+        <start-class>com.indorse.blood.bank.rest.web.BloodBankApplication</start-class>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.indorse.blood.bank</groupId>
+            <artifactId>blood-bank-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.indorse.blood.bank</groupId>
+            <artifactId>blood-bank-rest-web-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.indorse.blood.bank</groupId>
+            <artifactId>blood-bank-service-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.indorse.blood.bank</groupId>
+            <artifactId>blood-bank-service-impl</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
