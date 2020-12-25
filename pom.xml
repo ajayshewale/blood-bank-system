@@ -23,7 +23,7 @@
 		<maven-deploy-plugin-version>2.8.2</maven-deploy-plugin-version>
 		<lombook.version>1.18.4</lombook.version>
 		<apache.commons.lang.version>3.3.2</apache.commons.lang.version>
-		<apache.bean.utils.version>1.9.3</apache.bean.utils.version>
+		<apache.bean.utils.version>1.9.4</apache.bean.utils.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
